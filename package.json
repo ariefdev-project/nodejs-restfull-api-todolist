@@ -1,0 +1,24 @@
+{
+  "name": "belajar",
+  "version": "1.0.0",
+  "description": "Contoh restfull api sederhana tanpa database",
+  "exports": {
+    ".": "./app.js",
+    "./service": "./api-service.js"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariefdev-project/nodejs-restfull-api-todolist.git"
+  },
+  "author": "Arief Dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ariefdev-project/nodejs-restfull-api-todolist/issues"
+  },
+  "homepage": "https://github.com/ariefdev-project/nodejs-restfull-api-todolist#readme",
+  "type": "module"
+}
